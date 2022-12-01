@@ -3641,3 +3641,11 @@ having count(distinct owner_id) > 0
 [0m18:51:22.041432 [info ] [MainThread]: 
 [0m18:51:22.041604 [info ] [MainThread]: Done. PASS=14 WARN=0 ERROR=7 SKIP=10 TOTAL=31
 [0m18:51:22.041862 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d994910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5d6fa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d7126a0>]}
+
+
+============================== 2022-08-17 19:46:41.483694 | 3f535ada-b930-4b6d-a9de-2f59414cc547 ==============================
+[0m19:46:41.483708 [info ] [MainThread]: Running with dbt=1.2.0
+[0m19:46:41.484069 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/nvora/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m19:46:41.484188 [debug] [MainThread]: Tracking: tracking
+[0m19:46:41.496103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c02c070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c022d30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c022e20>]}
+[0m19:46:53.551049 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c022e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0229d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c022d60>]}
