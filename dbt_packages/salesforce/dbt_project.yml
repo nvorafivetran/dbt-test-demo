@@ -43,6 +43,7 @@ vars:
     salesforce__opportunity_line_item_enabled: true
     salesforce__order_enabled: true
     salesforce__product_2_enabled: true
+    salesforce_schema: salesforce_sandbox
     
 clean-targets:
 - target
