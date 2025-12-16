@@ -1,4 +1,4 @@
-# packages.yml 
+# packages.yml
 
 packages:
   - package: dbt-labs/audit_helper
